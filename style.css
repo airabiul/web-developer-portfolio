@@ -46,16 +46,40 @@ nav a{
 /* header releted style */
 .header{
    background-color: #FFF;
+   background-image: url("images/header_bg.png");
+   background-repeat: no-repeat;
+   background-position: bottom right;
 }
 
 .banner{
-    padding:  30px 30px 150px;
+    padding:  30px 30px 0px 150px;
     display: flex;
     align-items: center;
-    
+    justify-content: space-between;
 
+}
+
+.banner-contant{
+    max-width: 500px;
 }
 
 .banner .profile-picture{
     width: 500px;
+}
+
+.bannder-greeting{
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 0px;
+}
+
+.banner-title{
+    font-size: 70px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.banner-discription{
+
 }
