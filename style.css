@@ -149,3 +149,31 @@ main section{
   font-weight: 700;
 }
 
+.rezumi-containar{
+  display: flex;
+  gap: 50px;
+}
+#rezumi-colam-taital{
+  font-size: 18px;
+}
+.rezumi-itam-tital{
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.rezumi-itam-isntitute{
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+.rezumi-itam-isntitute, .rezumi-itam-description{
+  color: #757575;
+}
+.rezumi-containar hr{
+  margin: 10px;
+}
+
+.downlod-cv{
+  text-align: center;
+  margin-top: 50px;
+}
